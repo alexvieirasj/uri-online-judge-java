@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Exercise1002 {
 
 	 public static void main(String[] args) {
-	        Scanner leitor = new Scanner(System.in);
+		 	Scanner leitor = new Scanner(System.in);
 	        
 	        double raio = leitor.nextDouble();
 	        double pi = 3.14159;
