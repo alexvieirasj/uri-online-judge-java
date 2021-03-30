@@ -13,7 +13,6 @@ public class Exercise1133 {
 		
 		int menor = X;
 		int maior = Y;
-		int soma = 0;
 		
 		if(Y < menor) {
 			menor = Y;
