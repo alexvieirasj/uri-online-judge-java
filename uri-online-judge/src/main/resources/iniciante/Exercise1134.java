@@ -1,13 +1,13 @@
 package iniciante;
 import java.util.Scanner;
 
-/* Ler tipos de combustiveis colocados pelos clientes */
+/* Ler tipos de combustiveis consumidos pelos clientes */
 
 public class Exercise1134 {
-
+	
 	public static void main(String args[]) {
 		Scanner leitor = new Scanner(System.in);
-				
+		
 		int alcool = 0, gasolina = 0, diesel = 0, valor = 0;
 		
 		do {
@@ -27,7 +27,6 @@ public class Exercise1134 {
 		System.out.println("MUITO OBRIGADO");
 		System.out.println("Alcool: " + alcool);
 		System.out.println("Gasolina: " +  gasolina);
-		System.out.println("Diesel: " + diesel);
-		
+		System.out.println("Diesel: " + diesel);		
 	}
 }
